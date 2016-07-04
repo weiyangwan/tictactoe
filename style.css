@@ -1,0 +1,135 @@
+/****************
+  BASIC STYLE
+****************/
+
+html { background-color: #e7d9cf; }
+
+header {
+  margin: 0 auto;
+  width: 560px;
+  text-align: center;
+}
+
+h1 {
+  float: left;
+  margin: 0;
+  font-size: 3em;
+  font-family: 'Play', sans-serif;
+  color: #371b07;
+}
+
+p {
+  float: left;
+  margin: 0;
+  margin-left: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #8b131d;
+}
+
+span  { color: #766152; }
+
+/*******************
+  SCORE BOARD STYLE
+*******************/
+.score  {
+  float: right;
+  font-size: 1em;
+  clear: both;
+}
+
+div p {
+  border-bottom: 1px solid #a0522d;
+  color: #371b07;
+}
+
+h5  {
+  float: right;
+  margin: 0;
+  font-size:1.1em;
+  color: #8b131d;
+  clear: both;
+}
+
+/****************
+  BUTTON STYLE
+****************/
+button {
+  display: block;
+  float: right;
+  margin-top: 10px;
+  padding: 5px 25px;
+  font-size: .6em;
+  font-family: 'Play', sans-serif;
+  color: white;
+  background-color: #6C7D8C;
+  border: 2px solid #95ACBF;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: #a0522d;
+  opacity: .8;
+}
+
+/****************
+  BOARD STYLE
+****************/
+.board {
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  height: 520px;
+  width: 560px;
+  background-color: #8b5a2b;
+  border: 8px solid #a0522d;
+  border-radius: 5px;
+  clear: both;
+}
+
+/** for brain.dead.pan.cake **/
+h6 {
+  color: #c5a289;
+  margin: 0;
+  text-align: center;
+  font-size: .5em;
+}
+
+/****************
+  CELL STYLE
+****************/
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+h4 {
+  -webkit-margin-before: 68px;
+  font-size: 5em;
+  font-family: 'Candal', sans-serif;
+  text-align: center;
+  color: #c5a289;
+}
+
+.cell,
+.clicked {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 150px;
+  font-family: 'Play', sans-serif;
+  border: 5px ridge #8b4513;
+}
+.cell:nth-child(3n+0) { margin-right: 15px; }
+
+.cell:hover { border-color:#ffa54f; }
+
+#x {
+  background-color: #993f3a;
+  border: 5px ridge #993f3a;
+}
+#o {
+  background-color: #475e79;
+  border: 5px ridge #475e79;
+}
