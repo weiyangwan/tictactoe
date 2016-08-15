@@ -105,11 +105,14 @@ ul li {
 }
 
 h4 {
-  -webkit-margin-before: 68px;
-  font-size: 5em;
+  margin-top:10px;
+  margin-left: 40px;
+  /*z-index:999;*/
+  font-size: 6em;
   font-family: 'Candal', sans-serif;
   text-align: center;
   color: #c5a289;
+  position:absolute;
 }
 
 .cell,
